@@ -1,6 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&display=swap');
+
 body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-size: 0.98em;
+    color: #6e7898;
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    white-space: normal;
+}
+section{
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+.divider{
+        width: 85%;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 700;
+    color: #1f2a4b;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+    letter-spacing: -.01em;
 }
 .navbar-custom{
         padding: 35px 0;
@@ -92,6 +113,14 @@ h1 {
     font-weight: 800;
     color: #fff;
 }
+h4 {
+    font-size: 2.5em;
+}
+.spce {
+    clear: both;
+    height: 20px;
+    width: 100%;
+}
 .intro-text {
     margin-top: 40px;
 }
@@ -154,5 +183,132 @@ img {
 @media (min-width: 1200px){
 .navbar .container {
     max-width: 1200px!important;
+}
+}
+
+/*counter section starts*/
+.counter{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}
+.counter .count-icon span{
+    font-size: 40px;
+    margin-right: 25px;
+        background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
+}
+.counter .count-icon span.counticon{
+    color:#ff398bb5;
+}
+.counter .count-item {
+    display: inline-flex;
+}
+.counter .count-desc h4{
+    font-size: 2.5em;
+    color: #1f2a4b;
+    letter-spacing: -.01em;
+    margin: 0px;
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 700;
+}
+.counter .count-desc p{
+    font-size: 0.98em;
+    color: #6e7898;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    white-space: normal;
+}
+.counter .count-item .count-icon .clip-txt{
+     -webkit-text-fill-color: transparent;
+     -webkit-background-clip: text;
+    background-color: white;
+}
+
+/*feature section starts*/
+.feature{
+    background-image: url('img/bg-memphis.png');
+    background-position: center bottom;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.feature .meta-head {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #9699a8;
+}
+.feature h3 {
+    font-size: 3.5em;
+    line-height: 1.3;
+}
+.feature .section-text{
+    max-width: 750px;
+    margin: 0 auto 60px auto;
+    text-align: center;
+}
+.feature .feature-item .item{
+        border: 1px solid rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    padding: 30px 40px;
+    background: #fff;
+    transition: 0.5s;
+}
+.feature .feature-item h3{
+    font-size: 1.25rem;
+     font-family: 'josefin sans', sans-serif;
+    font-weight: 700;
+    color: #1f2a4b;
+    margin: 0 0 10px 0;
+    line-height: 1.4;
+    letter-spacing: -.01em;
+}
+.feature .feature-item p{
+    font-size: .98rem;
+    color: #6e7898;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    white-space: normal;
+}
+.feature .feature-item span{
+    font-size: 2rem;
+    color: white;
+}
+.feature .feature-item .feature-icon{
+       width: 80px;
+    height: 80px;
+        justify-content: center;
+        margin: auto;
+    background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%, #ffa159 100%);
+    font-size: 2em;
+    text-align: center;
+    padding: 20px;
+}
+.feature .feature-item .item:hover {
+    transform: translateY(-20px);
+}
+
+.feature-icon{
+    animation-name: bg-rad-anim;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    animation-delay: 0s;
+    animation-direction: reverse;
+}
+@keyframes bg-rad-anim{
+0% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
+}
+25% {
+    border-radius: 58% 42% 75% 25%/76% 46% 54% 24%;
+}
+50% {
+    border-radius: 50% 50% 33% 67%/55% 27% 73% 45%;
+}
+75% {
+    border-radius: 33% 67% 58% 42%/63% 68% 32% 37%;
+}
+100% {
+    border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
 }
 }
