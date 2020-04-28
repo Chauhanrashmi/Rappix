@@ -10,7 +10,7 @@
 	<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,423;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,423;1,500;1,600;1,700&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" href="css/themify-icons.css">
-    <!-- <link rel="stylesheet" href="css/animations.css"> -->
+    <link  href="css/animations.css" rel="stylesheet">
 </head>
 <body>
 	<header>
@@ -76,8 +76,8 @@
 		<!-- End Banner -->
 	</header>
 
-    <section class="counter animatedParent">
-    	<div class="container">
+    <section class="counter">
+    	<div class="container animatedParent">
     		<div class="row animated fadeInUp">
     			<div class="col-md-3 col-sm-1">
     					<div class="count-item">
@@ -128,16 +128,16 @@
     </section>
     <hr class="divider">
 
-    <section class="feature animated fadeInUp"  style="background-image: url('img/bg-memphis.png');">
-    	<div class="container">
-    		<div class="row">
+    <section class="feature "  style="background-image: url('img/bg-memphis.png');">
+    	<div class="container animatedParent">
+    		<div class="row animated fadeInUp">
     			<div class="section-text">
     			  <p class="meta-head">Why install app?</p>
     			  <h3>Build faster any page on your own choice</h3>
     			</div>
     		</div>
-    		<div class="feature-item text-center">
-    		    <div class="row items">
+    		<div class="feature-item text-center animatedParent">
+    		    <div class="row items animated fadeIn" animation-delay="2s">
     					<div class="col-md-3">
     					  <div class="item">
     						<div class="feature-icon bg-rad-anim">
@@ -190,20 +190,23 @@
     <section class="get-now">
     	
     </section>
-    
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 	<script src="js/css3-animate-it.js"></script>
-    <!-- <script>
-           var $counter = $('.counter-count');
-		    if($counter.length > 0){
-		        $counter.counterUp({
-		            delay: 20,
-		            time: 3000
-		        });
-		    }
-    </script> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/2.0.3/waypoints.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+	
+	
+    <script>
+       $(document).ready(function($) {
+        $('.counter-count').counterUp({
+            delay: 50,
+            time: 10000
+        });
+		 });
+    </script>
 </body>
 </html>
