@@ -9,8 +9,8 @@ body{
     white-space: normal;
 }
 section{
-    padding-bottom: 100px;
-    padding-top: 100px;
+    padding-bottom: 120px;
+    padding-top: 120px;
 }
 .divider{
         width: 85%;
@@ -235,6 +235,7 @@ img {
     font-size: 16px;
     font-weight: 700;
     margin-bottom: 15px;
+        font-family: 'open sans', sans-serif;
     color: #9699a8;
 }
 .feature h3 {
@@ -312,3 +313,340 @@ img {
     border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;
 }
 }
+
+/*feature section starts*/
+.feature-extend .try{
+    color: white;
+    padding: 8px 25px;
+}
+.feature-extend p{
+    font-size: 15px;
+    color: #6e7898;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    white-space: normal;
+}
+/*track-time section start*/
+
+.track-time{
+    background-image: linear-gradient(130deg, #ffa159 0,#ff9a60 25%, #ff39b4 51%, #ffa159 100%);
+}
+.track-time .track h2{
+    font-size: 3.5em;
+    line-height: 1.3;
+    color: white;
+}
+.track-time .track p{
+    font-size: 16px;
+    color: #ffffff;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.6;
+    white-space: normal;
+}
+.track-time .track2 img{
+   position: relative;
+}
+.track-time .track2 .play{
+   height: 80px;
+    border-radius: 55px;
+    padding: 25px;
+    position: absolute;
+    top: 41%;
+    left: 36%;
+    width: 80px;
+    background: white;
+}
+.track-time .track2 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-size: 28px;
+}
+.track-time .track {
+    height: 100%;
+}
+.track-time .pt-120{
+   padding-top: 120px;
+}
+.track-time .pt-70{
+    padding-top: 70px;
+}
+.track-time .track .track-item{
+    display: inline-flex;
+    margin-bottom:15px;
+}
+.track-time .track .track-item span{
+    font-size: 38px;
+    color: #fff;
+}
+.track-time .track .track-item .track-icon{
+        padding-top: 10px;
+}
+.track-time .track .track-item .track-desc{
+    margin-left: 23px;
+}
+.track-time .track .track-item .track-desc h6{
+    font-size: 20px;
+    color: #fff;
+}
+@media (min-width: 992px){
+.col-md-offset-1 {
+    margin-left: 8.33333333%;
+}
+}
+
+/*stop section starts*/
+.stop .stop-sec1{
+        padding-right: 70px;
+        padding-top: 90px;
+}
+.stop .stop-sec1 h3{
+    font-size: 3.5em;
+    line-height: 1.3;
+}
+.stop .stop-sec1 p{
+    font-size: .98rem;
+    color: #6e7898;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+    white-space: normal;
+}
+.stop .stop-sec1 .try1 {
+    color: white;
+    padding: 10px 25px;
+    margin-right: 10px;
+    font-weight: 900;
+    transition-timing-function: ease-in;
+    transition-duration: 5s;
+}
+.stop .stop-sec1 .try1:hover {
+    background:linear-gradient(130deg, #ff39b4  49%,#ffa159  99%); 
+}
+.stop .stop-sec1 .try1 span{
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 900;
+}
+.stop .stop-sec1 .try2{
+    padding: 10px 25px;
+    margin-right: 10px;
+    font-weight: 900;
+    padding: 10px 25px;
+    border: 2px solid;
+    border-image-source: linear-gradient(130deg,#ffa159  0%,  #ff39b4 51%);
+    border-image-slice: 1;
+    background: linear-gradient(130deg,#ffa159  0%,  #ff39b4 51%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    transition-timing-function: ease-in;
+    transition-duration: 5s;
+}
+.stop .stop-sec1 .try2:hover {
+    background:linear-gradient(130deg, #ff39b4  49%,#ffa159  99%);
+    color: white;
+    border:linear-gradient(130deg,#ffa159  0%,  #ff39b4 51%);
+}
+.stop .stop-sec1 .try2 span{
+    font-size: 22px;
+    line-height: 1;
+    font-weight: 900;
+}
+.grdnt-btn{
+    background-image: linear-gradient(130deg, #ffa159 0, #ff39b4 51%)
+}
+
+/*stop2 section starts*/
+.stop2 .stop-sec1 {
+        padding-right: 0px;
+    padding-left: 158px;
+}
+
+/*app interface section starts*/
+.interface {
+    background-image: linear-gradient(130deg, #ffa159 0,#ff9a60 25%, #ff39b4 51%, #ffa159 100%);
+}
+.interface .section-text {
+    max-width: 750px;
+    margin: 0px auto 50px;
+    text-align: center;
+}
+.interface .section-text p{
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 15px;
+    color: #fff;
+}
+.interface .section-text h3{
+    font-size: 3.5em;
+    line-height: 1.3;
+    color: #fff;
+}
+.interface-carousel .owl-stage-outer {
+    position: relative;    margin-bottom: 40px;
+    overflow: hidden !important;
+    }
+
+ .interface-carousel .owl-stage-outer  .item {
+    position: relative;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 7px 10px;
+}
+
+/*pricing css starts from here*/
+section.pricing {
+/*  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);*/
+}
+
+.pricing .card {
+  border: none;
+  border-radius: 1rem;
+  transition: all 0.2s;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.pricing hr {
+  margin: 1.5rem 0;
+}
+
+.pricing .card-title {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+}
+
+.pricing .card-price {
+  font-size: 3rem;
+  margin: 0;
+}
+
+.pricing .card-price .period {
+  font-size: 0.8rem;
+}
+
+.pricing ul li {
+  margin-bottom: 1rem;
+}
+
+.pricing .text-muted {
+  opacity: 0.7;
+}
+
+.pricing .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  opacity: 0.7;
+  transition: all 0.2s;
+}
+
+/*testimonials starts*/
+.bg-gray {
+    background: #F0F1FF;
+}
+.testimonial .test-item{
+    display: inline-flex;
+    position: relative;
+}
+.testimonial .content {
+     width: 80%;
+    padding: 40px 40px;
+    border-radius: 40px 40px 0px 40px;
+}
+.testimonial .content .reviews {
+       margin-bottom: 10px;
+}
+.testimonial .content .reviews ul li i{
+        color: #ffdd65;
+}
+.testimonial .content .reviews ul li p{
+        font-size: .98rem;
+    color: #000;
+    font-family: 'open sans', sans-serif;
+    font-weight: 100;
+}
+.testimonial .content .reviews ul{
+    list-style-type: none;
+    display: inline-flex;
+    padding-left: 0px;
+        margin-bottom: 0px;
+    line-height: 1;
+}
+.testimonial .content .reviews ul li{
+        padding: 2px 6px;
+        font-size: 14px;
+}
+.testimonial .content p{
+  font-size: .98rem;
+    color: #6e7898c4;
+    font-family: 'open sans', sans-serif;
+    font-weight: 100;
+        margin-bottom: 0px;
+}
+.testimonial .content h6{
+     margin-bottom: 0px;
+     margin-top: 10px;
+}
+.testimonial .pic{
+    width: 15%;
+    /*text-align: center;*/
+    margin-left: 40px;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.testimonial .pic .num{
+    line-height: 1.8;
+    font-size: 60px;
+    justify-content: center;
+    margin: auto;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-color: white;
+    background-image: linear-gradient(130deg, #ffa159 0,#ff9a60 25%, #ff39b4 51%, #ffa159 100%);
+}
+.testimonial .pic .photo img{
+    height: 75px;
+    width: 75px;
+    border-radius: 25px 25px 25px 0px;
+}
+.owl-theme .owl-nav.disabled+.owl-dots{
+    margin-top: 25px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+
+    background: #6b1aff;
+}
+
+/*get now section starts*/
+.get-now{
+    position: relative;
+}
+.get-now:before {
+    position: absolute;
+    background: url('../img/bg-parallax-4.png') right bottom no-repeat;
+    background-attachment: fixed;
+}
+.get-now h3{
+    font-size: 3.5em;
+    line-height: 1.3;
+    color: #fff;
+}
+.get-now p{
+    font-size: 18px;
+    color: #fff;
+    font-family: 'open sans', sans-serif;
+    font-weight: 400;
+    line-height: 1.8;
+}
+
+/*latest news*/
