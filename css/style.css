@@ -1091,3 +1091,35 @@ input:checked + .slider:before {
     font-weight: 800;
     color: #80808069;
 }
+
+.navbar.scrolled {
+  padding: 20px 0;
+  background-color: #fff !important;
+  transition: background-color 200ms linear;
+}
+
+.navbar.scrolled #navbarSupportedContent ul li a {
+    color: #424;
+    opacity: .8;
+    padding: 15px 0;
+    font-size: 16px;
+    line-height: 1;
+    font-family: 'josefin sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: -.001em;
+}
+.navbar.scrolled .btn-border {
+    color: #424;
+    background: 0 0;
+    border: 1px solid #4422446b;
+    box-shadow: 0 0 0 transparent;
+}
+.navbar.scrolled .clr {
+    display: none;
+}
+.navbar.scrolled .non-clr {
+    display: block;
+}
+.navbar .non-clr{
+ display: none;
+}
