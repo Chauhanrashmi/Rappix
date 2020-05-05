@@ -40,7 +40,18 @@ section {
     width: 100%;
 }
 }
-
+@media only screen and (max-width: 600px) {
+.owl-carousel .owl-item img {
+    display: block;
+    width: auto;
+}
+}
+@media only screen and (max-width: 600px) {
+.owl-carousel .owl-item{
+        width: 170px;
+    margin-right: 10px;
+}
+}
 /*@media only screen and (max-width: 600px) {
 h2 {
     font-size: 2.5em;
