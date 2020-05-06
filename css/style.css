@@ -533,8 +533,8 @@ img {
 }
 .interface-carousel .owl-stage-outer {
     position: relative;    margin-bottom: 40px;
-    overflow: visible !important;
-    }
+    /*overflow: visible !important;
+*/    }
 
  .interface-carousel .owl-stage-outer  .item {
     position: relative;
@@ -855,7 +855,11 @@ img {
     background: rgba(0,0,0,.1);
     border-radius: 5px;
 }
-
+.footer .divider {
+    width: 100%;
+    /* color: white; */
+    background: #ffffff7a;
+}
 .footer .subscribe-box h3{
         color: #fff;
     font-size: 40px;
@@ -863,6 +867,7 @@ img {
 }
 .pt-120{
     padding-top: 120px;
+    padding-bottom: 0px;
 }
 .footer .subscribe-box .form-group{
     position: relative;
@@ -935,7 +940,14 @@ img {
     background: rgba(0,0,0,.1);
     border-radius: 30px;color: #ffffff;
 }
-
+.footer .footer-copy{
+        padding-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    padding-bottom: 20px;
+    text-align: center;
+    color: white;
+}
 /*pricing section starts*/
 .switch {
   position: relative;
